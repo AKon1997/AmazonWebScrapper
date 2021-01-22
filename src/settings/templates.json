@@ -1,0 +1,23 @@
+{
+    "finishRunSend" :{
+        "subject" :"Amazon Parser - attached report",
+        "body" :"<html><body>Hello,<br /><br />Execution has been completed. Find file in attachment.</body></html>"
+    },
+    "finishRunFileMoved" :{
+        "subject" :"Amazon Parser - find file by path",
+        "body" :"<html><body>Hello,<br /><br />Execution has been completed with the following results:<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nodes promoted: %s,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;released: %s nodes.%s %s<br/><br /><b>RPA Commander job link:</b> <a href=\"%s\" target=\"_blank\">%s</a><br /><br />Best,<br />Slate Deployment Bot<br /><a href=\"mailto:%s\">%s</a><br />RPA</p></body></html>"
+    },
+    "inputFileNotFound":{
+        "subject" : "Amazon Parser - file invalid",
+        "body": "<html><body>Hello,<br /><br/>No input file was available at the time of the run. Please place input file for next run.</body></html>"
+    },
+    "inputFileNotValid": {
+        "subject" : "Amazon Parser - no report run",
+        "body" : "<html><body>Hello,<br /><br/>No report can't be created.</body></html>"
+    },
+    "initValidationFailed" : {
+        "subject" : "Amazon Parser - resources invalid",
+        "body" : "<html><body>Hello,<br/><br/>Following resources is invalid: %s <br/><br/>Please fix issue and retry</body></html>"
+    }
+  
+}

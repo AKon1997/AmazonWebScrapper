@@ -1,0 +1,6 @@
+{
+    "outputFileName" : "Amazon Product List Result %s.xlsx",
+    "sheetName" : "Sheet1",
+    "columnNames" : "Product,Count,Sorted By",
+    "columnsToSet" : "A,B,C"  
+}
