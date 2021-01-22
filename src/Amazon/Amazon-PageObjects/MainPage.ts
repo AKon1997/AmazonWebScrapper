@@ -17,8 +17,6 @@ export class MainPage{
     }
 
     async selectCountryToDeliver(countryName : string){
-        console.log()
-        //await this.page.waitForNavigation()
         await this.page.click(this.DELIVER_TO_ID)
         await this.page.waitForSelector(this.SELECT_COUNTRY_ID , {visible : true})
         await this.page.select(this.SELECT_COUNTRY_ID , countryName)
